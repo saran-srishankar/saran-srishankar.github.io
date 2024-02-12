@@ -1,0 +1,65 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-image: url(sloth_image.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* This was my attempt */
+/*.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+*/
+.container {
+  min-height: 100%;
+}
+
+.buffer {
+  height: 10rem;
+}
+
+h2 {
+  font-size: 3rem;
+  color: #FFFFF0;
+}
+
+hr {
+    margin: 20px auto;
+    border: 3px solid black;
+    width: 65px;
+/*    max-width: 65px;*/
+    opacity: 1;  
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+}
+
+.btn-primary {
+  --my-background-color: #212529;
+  background-color: var(--my-background-color);
+  border-color: var(--my-background-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--my-background-color);
+  border-color: var(--my-background-color);
+  transform: scale(1.5);
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
