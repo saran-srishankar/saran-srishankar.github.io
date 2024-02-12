@@ -1,2 +1,2 @@
 # sloth-website
-Website I created to test and tinker around, but also as a joke.
+Website I created as a joke to test and tinker around with. Used form submission template from chimpmail as well.
